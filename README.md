@@ -1,15 +1,21 @@
 # Assessment: Flask Microblog 
 This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) series.
 
-## Author
-<ul>
-<li>Kash Farhadi</li>
-</ul>
+Author
+----
+- Kash Farhadi
+
+# H1
+## H2
+
+Alt-H1
+===
 
 ### Reference Material and Credits
 <li>Miguel Grinberg -- Flask Mega Tutorial Author</li>
 
 ### Part 1: Hello World
+===
 <ul>
 <li>Learn how to set up a Flask project.</li>
 <li>Run a simple Flask web application.</li>
