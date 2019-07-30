@@ -1,44 +1,29 @@
 # Assessment: Flask Microblog 
 This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) series.
 
-Author
-----
+## Author
 - Kash Farhadi
 
-# H1
-## H2
-
-Alt-H1
-===
-
 ### Reference Material and Credits
-<li>Miguel Grinberg -- Flask Mega Tutorial Author</li>
+- Miguel Grinberg -- Flask Mega Tutorial Author
 
 ### Part 1: Hello World
-===
-<ul>
-<li>Learn how to set up a Flask project.</li>
-<li>Run a simple Flask web application.</li>
-</ul>
+- Learn how to set up a Flask project.
+- Run a simple Flask web application.
 
 ### Part 2: Templates
-<ul>
-<li>Generate a more elaborate web page that has a complex structure and many dynamic components.</li>
-<li>Create template html pages so you DRY and separates the user interface layout from the business logic. </li>
+- Generate a more elaborate web page that has a complex structure and many dynamic components.
+- Create template html pages so you DRY and separates the user interface layout from the business logic. 
 
-</ul>
 
 ### Part 3: Web Forms
-<ul>
-<li>Create forms to allow users to submit blog posts and  log in to the application.</li>
-<li>Implement the FlaskWTF extension</li>
-</ul>
+- Create forms to allow users to submit blog posts and  log in to the application.
+- Implement the FlaskWTF extension
 
 ### Part 4: Database
-<ul>
-<li>Implement SQLAlchemy that allows development with a simple SQLite database without a server. Then at the time of deployment, choose a more robust server to a production server without altering your application.</li>
-<li> Implement Alembic, for a robust way to make changes to your database in the future.</li>
-</ul>
+
+- Implement SQLAlchemy that allows development with a simple SQLite database without a server. Then at the time of deployment, choose a more robust server to a production server without altering your application.
+- Implement Alembic, for a robust way to make changes to your database in the future.
 
 ## Getting Started
 
