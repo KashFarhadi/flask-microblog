@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Flask Gods Witness Me</h1>
+   {% for post in posts %}
+        <h1>
+            {{ post.title }}
+        </h1>
+        <p>By {{ post.author }} on {{ post.date_posted }}</p>
+        <p> {{ post.content }} </p>
+   {% endfor %}
 </body>
 </html>
