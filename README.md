@@ -1,4 +1,4 @@
-#Assessment: Flask Microblog 
+# Assessment: Flask Microblog 
 This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) series.
 
 ## Author
@@ -30,7 +30,7 @@ This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.
 
 ### Part 4: Database
 <ul>
-<li>Implement SQLAlchemy that allow development with a simple SQLite database without a server, and then choose a more robust server at the time of deployment to a production server without altering your application.</li>
+<li>Implement SQLAlchemy that allows development with a simple SQLite database without a server. Then at the time of deployment, choose a more robust server to a production server without altering your application.</li>
 <li> Implement Alembic, for a robust way to make changes to your database in the future.</li>
 </ul>
 
@@ -45,11 +45,11 @@ To run the application in terminal:
 
     FLASK_APP=microblog.py 
     
-    and execute:
+and execute:
         
-            flask run
+        flask run
 
-    Or enter this command into the terminal while in the project directory 
+ Or enter this command into the terminal while in the project directory 
 
           python microblog.py
 
@@ -60,26 +60,31 @@ Then, open the site by entering the following URL in your web browser's address 
 ## Built With:
 <ul>
 
-    <li>
-    [Python](https://wiki.python.org/moin/BeginnersGuide)
-    </li>
+<li>
+[Python](https://wiki.python.org/moin/BeginnersGuide)
+
+</li>
 
 
-    <li>
-    [Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework. It is designed to make getting started quick and easy.
-    </li>
+<li>
+[Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework. It is designed to make getting started quick and easy.
 
-    <li>
-    [FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--Integrates Flask and WTForms.
-    </li>
+</li>
 
-    <li>
-    [FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
-    </li>
+<li>
+[FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--Integrates Flask and WTForms.
 
-    <li>
+</li>
+
+<li>
+[FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
+
+</li>
+
+<li>
     [Alembic](https://bitbucket.org/zzzeek/alembic/src/master/)--a database migrations tool for SQLAlchemy
-    </li>
+
+</li>
 
 </ul>
 
