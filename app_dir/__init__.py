@@ -10,4 +10,4 @@ db = SQLAlchemy(flask_app)
 migrate = Migrate(flask_app, db)
 
 
-from app_dir import route, models
+from app_dir import routes, models
