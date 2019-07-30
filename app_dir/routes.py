@@ -4,8 +4,8 @@ from app_dir import flask_app
 
 @flask_app.route("/")
 @flask_app.route("/index")
-def home():
-
+def index():
+    user = {'username': 'Miguel'}
     posts = [
         {
             'author': {'username': 'John'},
@@ -16,10 +16,4 @@ def home():
             'body': 'The Avengers movie was so cool!'
         }
     ]
-
-    return render_template('base.html', posts=posts)
-
-
-@flask_app.route("/about")
-def about():
-    return "<h1>About Page </h1>"
+    return render_template('index.html', title='Home', user=user, posts=posts)
