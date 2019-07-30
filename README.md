@@ -6,7 +6,7 @@ This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.
 <li>Kash Farhadi</li>
 </ul>
 
-## Reference Material and Credits
+### Reference Material and Credits
 <li>Miguel Grinberg -- Flask Mega Tutorial Author</li>
 
 ### Part 1: Hello World
@@ -29,16 +29,14 @@ This assessment introduces Flask through the [Flask Mega Tutorial](https://blog.
 </ul>
 
 ### Part 4: Database
-<ul></ul>
+<ul>
 <li>Implement SQLAlchemy that allow development with a simple SQLite database without a server, and then choose a more robust server at the time of deployment to a production server without altering your application.</li>
 <li> Implement Alembic, for a robust way to make changes to your database in the future.</li>
 </ul>
-</ul>
-
 
 ## Getting Started
 
-## Running the Application
+### Running the Application
 
 Clone this repository to your local machine
 Use pipenv to create a python 3 virtual environment at the top level of your microblog folder, 
@@ -51,11 +49,9 @@ and execute:
         
         flask run
 
-OR 
+Or enter this command into the terminal while in the project directory 
 
         python microblog.py
-
- while in this directory in your terminal
 
 Open the site by entering the following URL in your web browser's address bar:
 
@@ -63,7 +59,8 @@ Open the site by entering the following URL in your web browser's address bar:
 
 ## Built With:
 <ul>
-<li>[Python](https://wiki.python.org/moin/BeginnersGuide)
+<li>
+[Python](https://wiki.python.org/moin/BeginnersGuide)
 </li>
 
 
