@@ -45,40 +45,41 @@ To run the application in terminal:
 
     FLASK_APP=microblog.py 
     
-and execute:
+    and execute:
         
-        flask run
+            flask run
 
-Or enter this command into the terminal while in the project directory 
+    Or enter this command into the terminal while in the project directory 
 
-        python microblog.py
+          python microblog.py
 
-Open the site by entering the following URL in your web browser's address bar:
+Then, open the site by entering the following URL in your web browser's address bar:
 
         http://localhost:5000/ 
 
 ## Built With:
 <ul>
-<li>
-[Python](https://wiki.python.org/moin/BeginnersGuide)
-</li>
+
+    <li>
+    [Python](https://wiki.python.org/moin/BeginnersGuide)
+    </li>
 
 
-<li>
+    <li>
+    [Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework. It is designed to make getting started quick and easy.
+    </li>
 
-[Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework. It is designed to make getting started quick and easy.
-</li>
-<li>
+    <li>
+    [FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--Integrates Flask and WTForms.
+    </li>
 
-[FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--Integrates Flask and WTForms.
-</li>
+    <li>
+    [FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
+    </li>
 
-<li>
+    <li>
+    [Alembic](https://bitbucket.org/zzzeek/alembic/src/master/)--a database migrations tool for SQLAlchemy
+    </li>
 
-[FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
-</li>
-<li>
-
-[Alembic](https://bitbucket.org/zzzeek/alembic/src/master/)--a database migrations tool for SQLAlchemy</li>
 </ul>
 
