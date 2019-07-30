@@ -58,33 +58,14 @@ Then, open the site by entering the following URL in your web browser's address 
         http://localhost:5000/ 
 
 ## Built With:
-<ul>
 
-<li>
-[Python](https://wiki.python.org/moin/BeginnersGuide)
+- [Python](https://wiki.python.org/moin/BeginnersGuide) --  an object-oriented, high-level programming language that uses simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
 
-</li>
+- [Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework that is designed to make getting started quick and easy.
 
+- [FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--a flask extension that simplifies integration of Flask and WTForms.
 
-<li>
-[Flask](https://palletsprojects.com/p/flask/) -- a lightweight WSGI web application framework. It is designed to make getting started quick and easy.
+- [FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It provides useful defaults and helpers that make it easier to accomplish common tasks.
 
-</li>
-
-<li>
-[FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)--Integrates Flask and WTForms.
-
-</li>
-
-<li>
-[FlaskSQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) -- an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
-
-</li>
-
-<li>
-    [Alembic](https://bitbucket.org/zzzeek/alembic/src/master/)--a database migrations tool for SQLAlchemy
-
-</li>
-
-</ul>
+- [Alembic](https://bitbucket.org/zzzeek/alembic/src/master/)--a database migrations tool for SQLAlchemy.
 
