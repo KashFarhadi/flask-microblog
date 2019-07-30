@@ -39,6 +39,7 @@ To run the application in terminal:
 and execute:
         
         flask run
+---
 
  Or enter this command into the terminal while in the project directory 
 
