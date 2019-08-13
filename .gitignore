@@ -25,3 +25,4 @@ yarn-error.log*
 # from Taylor
 .env
 .vscode
+__pycache__
